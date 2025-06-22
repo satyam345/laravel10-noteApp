@@ -2,7 +2,7 @@
     <div class="note-container single-note">
         <div class="note-header">
             <div class="notes-header flex justify-between w-full mx-2.5 my-5 items-center">
-                <h4 class="text-2xl">Note: {{ $note->title }} {{ $note->id }}</h4>
+                <h4 class="text-2xl">Note: {{ $note->title }} (id: {{ $note->id }})</h4>
             </div>
             <div class="note-buttons">
                 <a href="{{ route('note.edit', $note) }}" class="note-edit-button">Edit</a>

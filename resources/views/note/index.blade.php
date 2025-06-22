@@ -123,7 +123,7 @@
                                 <input type="text" name="title" class="note-title" placeholder="Enter your note title">
                                 <textarea name="note" rows="10" class="note-desc" placeholder="Enter your note here"></textarea>
                                 <div class="note-buttons">
-                                    <a href="{{ route('note.index') }}" class="note-cancel-button">Cancel</a>
+                                    <button type="button" onclick="toggleModal('editNoteModal')" class="note-cancel-button">Cancel</button>
                                     <button type="submit" class="note-submit-button">Submit</button>
                                 </div>
                             </form>

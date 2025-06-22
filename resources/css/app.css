@@ -95,12 +95,12 @@ h4{
   color: #111111;
   font-size: 30px;
 }
-.note .note-buttons {
+/* .note .note-buttons {
   display: none;
 }
 .note:hover .note-buttons{
   display: flex;
-}
+} */
 .note-buttons {
   text-align: right;
   padding: 10px;
